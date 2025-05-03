@@ -1,0 +1,28 @@
+{
+  "name": "postgresql-json-test",
+  "context": "..",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": null
+  },
+  "extensions": [
+    "ms-python.python",
+    "amazonwebservices.aws-toolkit-vscode",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "GitHub.vscode-pull-request-github",
+    "IronGeek.vscode-env",
+    "ms-python.vscode-pylance",
+    "shd101wyy.markdown-preview-enhanced",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "yzane.markdown-pdf",
+    "GrapeCity.gc-excelviewer",
+    "ms-azuretools.vscode-docker",
+    "sohamkamani.code-eol"
+  ],
+  "runArgs": ["--privileged"],
+  "workspaceFolder": "/usr/local/workspace"
+  //"postCreateCommand": "cd src/frontend && flutter pub get"
+}
